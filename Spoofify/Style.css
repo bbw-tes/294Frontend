@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(29, 185, 84);    
+}
+
+p {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav {
+    text-align: center;
+    
+}
+
+#mybutton {
+    border: white 1em;
+}
