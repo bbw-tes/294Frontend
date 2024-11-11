@@ -2,17 +2,41 @@ body {
     background-color: rgb(29, 185, 84);    
 }
 
-p {
-    text-align: left;
-    font-size: 2em;
-    font-weight: bold;
+header {
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
-nav {
-    text-align: center;
+#title {
+    font-size: 2em;
+}
+
+
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul a {
+    color: #ffffff;
+    padding: 1rem;
+    border: 2px solid #b7facf;
+    border-radius: 2rem;
+}
+
+#birthweek {
     
 }
 
-#mybutton {
-    border: white 1em;
+footer {
+background-color: #b7facf;
+padding: 2rem;
+border-radius: 1rem 1rem;
 }

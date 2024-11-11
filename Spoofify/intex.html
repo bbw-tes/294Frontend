@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Spoofify</title>
         <link rel="stylesheet" href="Style.css">
+        <script type="text/javascript" src="script.js" defer></script>
     </head>
+
     <body>
+        <header>
+            <span id="title">Spoofify</span>
+            <nav>
+                <ul>
+                    <li>
+                <a href="#top-of-your-birthweek">Top of your birthweek</a>
+                    </li>
+                    <li>
+                <a href="#latest-releses-randomized"> releses randomized</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
         <main>
-            <section>
-                <nav>
-                 <p>Spoofify</p>
-                <button id="myButton">Top of your birthweek</button>
-                <button id="myButton"> releses randomized</button>
-                </nav>
-            </section>
-            
-            <h1>Your spoofed overview</h1>
+        <h1>Your spoofed overview</h1>
             <p>Welcome to Spoofify, the rip-off music streaming service of ICT Module 291!</p>
             
-        <section>
+        <section id="top-of-your-birthweek">
             <h2>Top of your birthweek</h2>
             <ol>
                 <li><strong>Jump</strong> <em>by Kris Kross</em></li>
@@ -26,7 +36,10 @@
                 <li><strong>Save the Best fpr Last</strong> <em>by Vanessa Williams</em></li>
                 <li><strong>Live And Learn</strong> <em>by Joe Public</em></li>
             </ol>
-        <h2 id="latest-releases-randomized">Latest relesases randomized</h2>
+        </section>
+
+        <section id="latest-releses-randomized">
+        <h2 >Latest relesases randomized</h2>
         <ul id="releses-grid">
             <li><img src="https://loremflickr.com/480/480/cd,album,cover?random=1" alt="Random cover 1"></li>
             <li><img src="https://loremflickr.com/480/480/cd,album,cover?random=2" alt="Random cover 2"></li>
@@ -37,5 +50,8 @@
         </ul>
     </section>
     </main>
+    <footer>
+        &copy; 2023 Spooky Example, Inc.
+    </footer>
     </body>
 </html>
