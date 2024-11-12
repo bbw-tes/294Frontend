@@ -31,8 +31,15 @@ nav ul a {
     border-radius: 2rem;
 }
 
-#birthweek {
-    
+#releases-grid {
+    display: inline-grid;
+    column-gap: 0.5rem;
+    grid-template-columns: auto auto auto;
+    list-style: none; /*Listelemt (den punkt) entfernen*/
+}
+
+#releases-grid img {
+    width: 12rem;
 }
 
 footer {
